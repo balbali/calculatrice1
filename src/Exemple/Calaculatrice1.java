@@ -68,7 +68,7 @@ public class Calaculatrice1 extends Application {
                                   }
         );
 
-        primaryStage.setTitle("Calculatrice Carré & Racine Carré");
+        primaryStage.setTitle("Calculatrice");
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(aPane, 300,178));
         primaryStage.show();
