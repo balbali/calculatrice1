@@ -13,6 +13,14 @@ public class Calaculatrice1 extends Application {
 
     public void start(Stage primaryStage) {
         Pane aPane = new Pane();
+		Label label = new Label("Donner une valeur:");
+        label.relocate(10,10);
+        label.setPrefSize(100, 30);
+        aPane.getChildren().add(label);
+        valueField = new TextField();
+        valueField.relocate(130,10);
+        valueField.setPrefSize(150, 30);
+        aPane.getChildren().add(valueField)
         // Ajouter le lable Donner une valeur
         Label label = new Label("Donner une valeur:");
         label.relocate(10,10);
